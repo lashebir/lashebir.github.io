@@ -32,12 +32,29 @@ a, a:visited {
   color: #6262ff;
 }
 
+
+
 // /* Buttons */
 // .btn {
 //   color: #ff6ad5;
 //   border-color: #000089;
 // }
-// .btn:hover {
-//   background-color: rgba(255,106,213,0.15);
-//   border-color: #ff6ad5;
+.btn:hover {
+  background-color: rgba(255,106,213,0.15);
+  border-color: #ff6ad5;
+}
+
+/* Subheader styles */
+h2, h3, h4 {
+  color: #450089;  /* replace with your desired subheader color */
+}
+
+/* Body text (paragraphs) */
+body, p {
+  color: #1a1a1a;  /* replace with your desired paragraph/subtext color */
+}
+
+// /* Optional: Muted or secondary text (like <small> or bylines) */
+// small, .text-muted {
+//   color: #bbbbbb;  /* softer gray for low-emphasis text */
 // }
