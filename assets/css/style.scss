@@ -52,7 +52,18 @@ a, a:visited {
 
 
 /* Body text (paragraphs) */
-body, p {
+body, 
+h1 {
+  color: #ffca28;  /* main header (Markdown #) */
+}
+h2 {
+  color: #ff6ad5;  /* subheader (Markdown ##) */
+}
+h3 {
+  color: #80cbc4;  /* sub-subheader (Markdown ###) */
+}
+
+p {
   color: #1a1a1a;  /* replace with your desired paragraph/subtext color */
 }
 
