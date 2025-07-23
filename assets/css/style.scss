@@ -5,32 +5,32 @@
    With remote_theme you can safely import by explicit name: */
 @import "jekyll-theme-cayman";
 body {
-  // background-color: #121212;  /* dark mode */
+  background-color: #f7f7f7;  /* dark mode */
   color: #f0f0f0;
-  background-image: linear-gradient(120deg, #0d0d0d, #1a1a1a);
+  // background-image: linear-gradient(120deg, #0d0d0d, #1a1a1a);
 }
 
 // /* Your overrides below ----------------------------------- */
 
 // /* Page header background (top banner) */
-// .page-header {
-//   /* solid dark */
-//   background-color: #0d0d0d;
-//   /* OR gradient example:
-//   background-image: linear-gradient(120deg, #0d0d0d, #1a1a1a);
-//   */
-// }
+.page-header {
+  /* solid dark */
+  // background-color: #0d0d0d;
+  /* OR gradient example:*/
+  background-image: linear-gradient(120deg, #B2AC88, #1a1a1a);
+  
+}
 
-// /* Project/site name text in header */
-// .project-name,
-// .project-tagline {
-//   color: #ff6ad5;
-// }
+/* Project/site name text in header */
+.project-name,
+.project-tagline {
+  color: #ff6ad5;
+}
 
-// /* Links sitewide */
-// a, a:visited {
-//   color: #ff6ad5;
-// }
+/* Links sitewide */
+a, a:visited {
+  color: #ff6ad5;
+}
 
 // /* Buttons */
 // .btn {
