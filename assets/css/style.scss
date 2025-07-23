@@ -5,8 +5,9 @@
    With remote_theme you can safely import by explicit name: */
 @import "jekyll-theme-cayman";
 body {
-  background-color: #121212;  /* dark mode */
+  // background-color: #121212;  /* dark mode */
   color: #f0f0f0;
+  background-image: linear-gradient(120deg, #0d0d0d, #1a1a1a);
 }
 
 // /* Your overrides below ----------------------------------- */
