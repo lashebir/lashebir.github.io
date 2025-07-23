@@ -46,16 +46,16 @@ a, a:visited {
 /* Body text (paragraphs) */
 body, 
 h1 {
-  color: #f0f0f0;  /* main header (Markdown #) */
+  color: #f0f0f0 !important;  /* main header (Markdown #) */
 }
 
 h2 {
-  color: #450089;  /* subheader (Markdown ##) */
+  color: #450089 !important;  /* subheader (Markdown ##) */
 }
 
 /*
 h3 {
-  color: #80cbc4;  /* sub-subheader (Markdown ###) */
+  color: #80cbc4 !important;  /* sub-subheader (Markdown ###) */
 }
 */
 
