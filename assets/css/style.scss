@@ -15,23 +15,22 @@ body {
 // /* Page header background (top banner) */
 .page-header {
   /* solid dark */
-  // background-color: #0d0d0d;
+  // background-color: #f9f9f9;
   /* OR gradient example:*/
   background-image: linear-gradient(120deg, #000089, #1a1a1a);
   
 }
 
 // /* Project/site name text in header */
-// .project-name,
-// .project-tagline {
-//   color: #0d0d0d;
-// }
+.project-name,
+.project-tagline {
+  color: #000000;
+}
 
 /* Links sitewide */
 a, a:visited {
   color: #6262ff;
 }
-
 
 
 // /* Buttons */
@@ -44,24 +43,17 @@ a, a:visited {
   border-color: #ff6ad5;
 }
 
-// /* Subheader styles */
-// h2, h3, h4 {
-//   color: #450089;  /* replace with your desired subheader color */
-// }
-
-
-
 /* Body text (paragraphs) */
 body, 
 h1 {
-  color: #ffca28;  /* main header (Markdown #) */
+  color: #000000;  /* main header (Markdown #) */
 }
 h2 {
-  color: #ff6ad5;  /* subheader (Markdown ##) */
+  color: #450089;  /* subheader (Markdown ##) */
 }
-h3 {
-  color: #80cbc4;  /* sub-subheader (Markdown ###) */
-}
+// h3 {
+//   color: #80cbc4;  /* sub-subheader (Markdown ###) */
+// }
 
 p {
   color: #1a1a1a;  /* replace with your desired paragraph/subtext color */
