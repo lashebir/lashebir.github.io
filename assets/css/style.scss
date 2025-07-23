@@ -1,0 +1,38 @@
+---
+---
+
+/* Load the theme's base styles.
+   With remote_theme you can safely import by explicit name: */
+@import "jekyll-theme-cayman";
+
+/* Your overrides below ----------------------------------- */
+
+/* Page header background (top banner) */
+.page-header {
+  /* solid dark */
+  background-color: #0d0d0d;
+  /* OR gradient example:
+  background-image: linear-gradient(120deg, #0d0d0d, #1a1a1a);
+  */
+}
+
+/* Project/site name text in header */
+.project-name,
+.project-tagline {
+  color: #ff6ad5;
+}
+
+/* Links sitewide */
+a, a:visited {
+  color: #ff6ad5;
+}
+
+/* Buttons */
+.btn {
+  color: #ff6ad5;
+  border-color: #ff6ad5;
+}
+.btn:hover {
+  background-color: rgba(255,106,213,0.15);
+  border-color: #ff6ad5;
+}
