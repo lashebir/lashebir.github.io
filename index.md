@@ -2,15 +2,21 @@
 title: "Leah Ashebir"
 ---
 
-<div class="page-header">
-  <h1 class="project-name">Leah Ashebir</h1>
-  <h2 class="project-tagline">Research Data Science, Machine Learning, Statistical Analysis</h2>
-
-  <div class="header-buttons">
-    <a href="mailto:ltashebir77@gmail.com" class="btn">Email</a>
-    <a href="https://www.linkedin.com/in/leah-ashebir" class="btn">LinkedIn</a>
-  </div>
-</div>
+<!-- Add buttons inside the header -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const header = document.querySelector('.page-header');
+    if (header) {
+      const btnWrapper = document.createElement('div');
+      btnWrapper.className = 'header-buttons';
+      btnWrapper.innerHTML = `
+        <a href="mailto:ltashebir77@gmail.com" class="btn header-btn">📧 Email</a>
+        <a href="https://www.linkedin.com/in/leah-ashebir" class="btn header-btn">🔗 LinkedIn</a>
+      `;
+      header.appendChild(btnWrapper);
+    }
+  });
+</script>
 
 <link rel="stylesheet" href="/assets/css/style.scss">
 
