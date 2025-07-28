@@ -27,17 +27,26 @@ h1, h2, h3 {
   color: #000089 !important;
 }
 
-/* Purple section headers (like "Education 🎓", "Projects 💡") */
+/* Section headers like "Education 🎓", "Skills 🧠" */
 .main-content h2 {
   color: #450089 !important;
   font-weight: 700 !important;
 }
 
-/* Project titles (links inside h2) — make these semi-bold */
+/* Project titles (links inside h2) — slightly less bold */
 .main-content h2 a {
   color: #450089 !important;
-  font-weight: 600;  /* slightly less bold than section headers */
+  font-weight: 600;
   text-decoration: none;
+}
+
+/* Education & Skills subheaders (styled <p> tags) */
+.main-content p strong {
+  color: #450089 !important;
+  font-weight: 600 !important;
+  display: block;
+  margin: 1rem 0 0.5rem;
+  font-size: 1.1rem;
 }
 
 /* ========== Paragraphs and List Items ========== */
