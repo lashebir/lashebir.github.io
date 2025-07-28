@@ -15,10 +15,7 @@ body {
 }
 
 .header-buttons {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  z-index: 2;
+  margin-top: 20px;
 }
 
 .header-buttons .btn {
@@ -36,6 +33,26 @@ body {
 
 .header-buttons .btn:hover {
   background-color: #5e00b3;
+}
+
+/* Button styling */
+.header-btn {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #ffffff !important;
+  background: linear-gradient(135deg, #4d0089, #1a1a5e);
+  transition: background 0.4s ease, transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effect */
+.header-btn:hover {
+  background: linear-gradient(135deg, #6f00c2, #2d2d99);
+  transform: translateY(-2px);
 }
 
 /* Header title + tagline */
