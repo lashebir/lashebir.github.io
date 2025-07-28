@@ -27,7 +27,7 @@ h1, h2, h3 {
   color: #000089 !important;
 }
 
-/* Section headers like "Education 🎓", "Skills 🧠" */
+/* Section headers like "Projects 💡", "Education 🎓", "Skills 🧠" */
 .main-content h2 {
   color: #450089 !important;
   font-weight: 700 !important;
@@ -40,17 +40,23 @@ h1, h2, h3 {
   text-decoration: none;
 }
 
-/* Education & Skills subheaders (styled <p> tags) */
-.main-content p strong {
-  color: #450089 !important;
-  font-weight: 600 !important;
-  display: block;
-  margin: 1rem 0 0.5rem;
-  font-size: 1.1rem;
+/* ========== Paragraphs and List Items ========== */
+.main-content p {
+  font-weight: 400 !important;
+  font-size: 1rem;
+  color: #000000 !important;
 }
 
-/* ========== Paragraphs and List Items ========== */
-.main-content p,
+/* Subheaders like “Machine Learning” and “Master of Science…” */
+.main-content p strong {
+  font-weight: 500 !important;
+  color: #450089 !important;
+  display: block;
+  margin: 1rem 0 0.5rem;
+  font-size: 1.05rem;
+}
+
+/* Bulleted lists */
 .main-content li {
   color: #000000 !important;
   font-weight: 400;
