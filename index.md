@@ -3,11 +3,12 @@ title: "Leah Ashebir"
 ---
 
 <div class="page-header">
-<!--   <h1 class="project-name">Your Site Title</h1>
-  <h2 class="project-tagline">Your tagline here</h2> -->
+  <h1 class="project-name">Leah Ashebir</h1>
+  <h2 class="project-tagline">Research Data Science, Machine Learning, Statistical Analysis</h2>
+
   <div class="header-buttons">
     <a href="mailto:ltashebir77@gmail.com" class="btn">Email</a>
-  <a href="https://www.linkedin.com/in/leah-ashebir" class="btn">LinkedIn</a>
+    <a href="https://www.linkedin.com/in/leah-ashebir" class="btn">LinkedIn</a>
   </div>
 </div>
 
