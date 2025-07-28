@@ -1,5 +1,116 @@
----
----
+// ---
+// ---
+
+// @import "jekyll-theme-cayman";
+
+// /* ========== Base Colors ========== */
+// body {
+//   background-color: #e3e3e3;
+//   color: #000000;
+// }
+
+// /* ========== Header (top banner) ========== */
+// .page-header {
+//   background-image: linear-gradient(120deg, #000089, #1a1a1a);
+// }
+
+// .header-buttons {
+//   margin-top: 20px;
+// }
+
+// .header-buttons .btn {
+//   display: inline-block;
+//   margin-left: 10px;
+//   padding: 8px 14px;
+//   background-color: #450089;
+//   color: #ffffff !important;
+//   border: none;
+//   border-radius: 6px;
+//   text-decoration: none;
+//   font-weight: 600;
+//   transition: background-color 0.3s ease;
+// }
+
+// .header-buttons .btn:hover {
+//   background-color: #5e00b3;
+// }
+
+// /* Button styling */
+// .header-btn {
+//   display: inline-block;
+//   margin: 0 10px;
+//   padding: 10px 20px;
+//   font-weight: 600;
+//   border-radius: 8px;
+//   text-decoration: none;
+//   color: #ffffff !important;
+//   background: linear-gradient(135deg, #4d0089, #1a1a5e);
+//   transition: background 0.4s ease, transform 0.3s ease;
+//   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+// }
+
+// /* Hover effect */
+// .header-btn:hover {
+//   background: linear-gradient(135deg, #6f00c2, #2d2d99);
+//   transform: translateY(-2px);
+// }
+
+// /* Header title + tagline */
+// .project-name,
+// .project-tagline {
+//   color: #f0f0f0 !important;
+//   font-weight: 600;
+// }
+
+// /* ========== Headings ========== */
+// h1, h2, h3 {
+//   font-weight: 600 !important;
+//   color: #000089 !important;
+// }
+
+// /* Section headers like "Projects 💡", "Skills 🧠", etc */
+// .main-content h2 {
+//   color: #450089 !important;
+//   font-weight: 500 !important;
+// }
+
+// /* Project titles as links */
+// .main-content h2 a {
+//   color: #450089 !important;
+//   font-weight: 500 !important;
+//   text-decoration: none;
+// }
+
+// /* Paragraphs */
+// .main-content p {
+//   color: #000000 !important;
+//   font-weight: 300;
+// }
+
+// /* List items */
+// .main-content li {
+//   color: #000000 !important;
+//   font-weight: 300;
+// }
+
+// /* 🔧 THE FIX: Make all bold text slightly lighter */
+// strong {
+//   font-weight: 500 !important;
+//   color: #450089 !important;
+// }
+
+// /* Links */
+// a,
+// a:visited {
+//   color: #6262ff;
+// }
+
+// /* Buttons */
+// .btn:hover {
+//   background-color: rgba(255, 106, 213, 0.15);
+//   border-color: #ff6ad5;
+// }
+
 
 @import "jekyll-theme-cayman";
 
@@ -9,72 +120,66 @@ body {
   color: #000000;
 }
 
-/* ========== Header (top banner) ========== */
+/* ========== Header ========== */
 .page-header {
   background-image: linear-gradient(120deg, #000089, #1a1a1a);
+  padding: 4rem 1rem;
+  text-align: center;
 }
 
-.header-buttons {
-  margin-top: 20px;
-}
-
-.header-buttons .btn {
-  display: inline-block;
-  margin-left: 10px;
-  padding: 8px 14px;
-  background-color: #450089;
+/* Header title + tagline */
+.project-name {
   color: #ffffff !important;
-  border: none;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: background-color 0.3s ease;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
 }
 
-.header-buttons .btn:hover {
-  background-color: #5e00b3;
+.project-tagline {
+  color: #cfcfe0 !important;
+  font-weight: 400;
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
 }
 
-/* Button styling */
+/* Centered Button Group Below Tagline */
+.header-buttons {
+  margin-top: 1.5rem;
+}
+
 .header-btn {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 0.5rem;
   padding: 10px 20px;
   font-weight: 600;
   border-radius: 8px;
   text-decoration: none;
   color: #ffffff !important;
   background: linear-gradient(135deg, #4d0089, #1a1a5e);
-  transition: background 0.4s ease, transform 0.3s ease;
+  transition: background 0.3s ease, transform 0.2s ease;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Hover effect */
 .header-btn:hover {
   background: linear-gradient(135deg, #6f00c2, #2d2d99);
   transform: translateY(-2px);
 }
 
-/* Header title + tagline */
-.project-name,
-.project-tagline {
-  color: #f0f0f0 !important;
-  font-weight: 600;
-}
-
-/* ========== Headings ========== */
-h1, h2, h3 {
+/* ========== Section Headers ========== */
+.main-content h1,
+.main-content h2,
+.main-content h3 {
   font-weight: 600 !important;
   color: #000089 !important;
 }
 
-/* Section headers like "Projects 💡", "Skills 🧠", etc */
-.main-content h2 {
+/* Section titles (e.g., Projects 💡, Skills 🧠) */
+.main-content h2.section-title {
   color: #450089 !important;
   font-weight: 500 !important;
 }
 
-/* Project titles as links */
+/* Project titles (linked) */
 .main-content h2 a {
   color: #450089 !important;
   font-weight: 500 !important;
@@ -93,7 +198,7 @@ h1, h2, h3 {
   font-weight: 300;
 }
 
-/* 🔧 THE FIX: Make all bold text slightly lighter */
+/* Bold inline text */
 strong {
   font-weight: 500 !important;
   color: #450089 !important;
@@ -115,79 +220,5 @@ a:visited {
 
 
 
-// ---
-// ---
 
-// @import "jekyll-theme-cayman";
 
-// /* ========== Background & Base Text ========== */
-// body {
-//   background-color: #e3e3e3 !important;
-//   color: #000000 !important;
-// }
-
-// /* ========== Header (top banner) ========== */
-// .page-header {
-//   background-image: linear-gradient(120deg, #000089, #1a1a1a) !important;
-// }
-
-// /* Header title + tagline */
-// .project-name,
-// .project-tagline {
-//   color: #f0f0f0 !important;
-//   font-weight: 600 !important;
-// }
-
-// /* ========== Headings ========== */
-// .main-content h1,
-// .main-content h2,
-// .main-content h3,
-// .main-content h4 {
-//   font-weight: 600 !important;
-//   color: #000089 !important;
-// }
-
-// /* Section headers like Education, Skills */
-// .main-content h2.section-title {
-//   color: #450089 !important;
-// }
-
-// /* Project titles (linked h2s) */
-// .main-content h2 a {
-//   color: #450089 !important;
-//   font-weight: 600 !important;
-//   text-decoration: none !important;
-// }
-
-// /* Bold subheaders like Machine Learning */
-// .main-content p strong {
-//   font-weight: 600 !important;
-//   color: #450089 !important;
-//   display: block;
-//   margin: 1rem 0 0.5rem;
-//   font-size: 1.05rem;
-// }
-
-// /* Paragraphs */
-// .main-content p {
-//   color: #000000 !important;
-//   font-weight: 400 !important;
-// }
-
-// /* Lists */
-// .main-content li {
-//   color: #000000 !important;
-//   font-weight: 400 !important;
-// }
-
-// /* Links */
-// .main-content a,
-// .main-content a:visited {
-//   color: #6262ff !important;
-// }
-
-// /* Buttons */
-// .btn:hover {
-//   background-color: rgba(255, 106, 213, 0.15) !important;
-//   border-color: #ff6ad5 !important;
-// }
