@@ -27,40 +27,35 @@ h1, h2, h3 {
   color: #000089 !important;
 }
 
-/* Section headers: "Projects 💡", "Education 🎓", "Skills 🧠" */
+/* Section headers like "Projects 💡", "Skills 🧠", etc */
 .main-content h2 {
   color: #450089 !important;
   font-weight: 700 !important;
 }
 
-/* Project titles (h2 a) — purple and slightly less bold */
+/* Project titles as links */
 .main-content h2 a {
   color: #450089 !important;
   font-weight: 600 !important;
   text-decoration: none;
 }
 
-/* Body paragraphs */
+/* Paragraphs */
 .main-content p {
   color: #000000 !important;
   font-weight: 400;
-  font-size: 1rem;
-}
-
-/* Subheaders like “Machine Learning” and degrees */
-.main-content p > strong:only-child {
-  font-weight: 600 !important;
-  color: #450089 !important;
-  display: block;
-  margin: 1rem 0 0.5rem;
-  font-size: 1.05rem;
 }
 
 /* List items */
 .main-content li {
   color: #000000 !important;
   font-weight: 400;
-  font-size: 1rem;
+}
+
+/* 🔧 THE FIX: Make all bold text slightly lighter */
+strong {
+  font-weight: 600 !important;
+  color: #450089 !important;
 }
 
 /* Links */
@@ -69,7 +64,7 @@ a:visited {
   color: #6262ff;
 }
 
-/* Button hover */
+/* Buttons */
 .btn:hover {
   background-color: rgba(255, 106, 213, 0.15);
   border-color: #ff6ad5;
