@@ -20,8 +20,12 @@ When I am not working on my projects, you can find me line dancing, reading abou
   - hello test
 
 # Education 🎓
-## Master of Science in Data Science - University of San Francisco
-## Bachelor of Science in Finance, Business Analytics // Business German Certificate - Indiana University Bloomington, Kelley School of Business
+## University of San Francisco
+- Master of Science in Data Science, Class of 2025
+- Cohort Ambassador
+## Indiana University Bloomington, Kelley School of Business
+- Bachelor of Science in Finance, Business Analytics
+- Business German Certificate
 
 # Skills 🧠
 ## Machine Learning
