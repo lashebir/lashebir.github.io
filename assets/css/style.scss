@@ -3,24 +3,25 @@
 
 @import "jekyll-theme-cayman";
 
-/* Background */
+/* ========== Base Colors ========== */
 body {
   background-color: #e3e3e3;
   color: #fdfdfd;
 }
 
-/* Header gradient */
+/* ========== Header (top banner) ========== */
 .page-header {
   background-image: linear-gradient(120deg, #000089, #1a1a1a);
 }
 
-/* Header text */
+/* Project/site name and tagline in header */
 .project-name,
 .project-tagline {
   color: #f0f0f0 !important;
+  font-weight: 700;
 }
 
-/* Heading overrides */
+/* ========== Headings ========== */
 h1 {
   font-weight: 700;
   color: #000089 !important;
@@ -30,23 +31,28 @@ h2 {
   color: #1a1a1a !important;
 }
 
-/* THIS fixes the black project title */
+/* Fixes project titles (they are links inside h2) */
 .main-content h2 a {
   color: #450089 !important;
+  font-weight: 700;
+  text-decoration: none;
 }
 
-/* Paragraphs */
-p, li {
+/* ========== Main Content Text ========== */
+.main-content p,
+.main-content li {
   color: #450089 !important;
+  font-weight: 500;
 }
 
-/* Links */
-a, a:visited {
+/* ========== Links ========== */
+a,
+a:visited {
   color: #6262ff;
 }
 
-/* Button hover */
+/* ========== Buttons ========== */
 .btn:hover {
-  background-color: rgba(255,106,213,0.15);
+  background-color: rgba(255, 106, 213, 0.15);
   border-color: #ff6ad5;
 }
