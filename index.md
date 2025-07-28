@@ -2,7 +2,7 @@
 title: "Leah Ashebir"
 ---
 
-<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/assets/css/style.scss">
 
 # Hi there 👋
 My name is Leah. I am a statistician and data scientist passionate about using machine learning to unlock hidden potential in data. My approach is deeply rooted in leveraging the theoretical underpinnings of machine learning technique to customize the solution to the data, not the other way around. I am excited to continue applying my skills, developing my data science / machine learning repetoire, and creating real-world impact!
