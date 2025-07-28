@@ -76,17 +76,17 @@
 ---
 ---
 
-@import "jekyll-theme-cayman";
+// @import "jekyll-theme-cayman";
 
 /* ========== Background & Base Text ========== */
 body {
-  background-color: #e3e3e3;
+  background-color: #e3e3e3 !important;
   color: #000000 !important;
 }
 
 /* ========== Header (top banner) ========== */
 .page-header {
-  background-image: linear-gradient(120deg, #000089, #1a1a1a);
+  background-image: linear-gradient(120deg, #000089, #1a1a1a) !important;
 }
 
 /* Header title + tagline */
@@ -105,19 +105,19 @@ body {
   color: #000089 !important;
 }
 
-/* Section titles like "Education 🎓", "Skills 🧠", etc */
+/* Section headers like Education, Skills */
 .main-content h2.section-title {
   color: #450089 !important;
 }
 
-/* Project titles (h2 with links) */
+/* Project titles (linked h2s) */
 .main-content h2 a {
   color: #450089 !important;
   font-weight: 600 !important;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
-/* Subheaders like "Machine Learning" */
+/* Bold subheaders like Machine Learning */
 .main-content p strong {
   font-weight: 600 !important;
   color: #450089 !important;
@@ -146,6 +146,6 @@ body {
 
 /* Buttons */
 .btn:hover {
-  background-color: rgba(255, 106, 213, 0.15);
-  border-color: #ff6ad5;
+  background-color: rgba(255, 106, 213, 0.15) !important;
+  border-color: #ff6ad5 !important;
 }
