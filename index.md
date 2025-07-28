@@ -32,24 +32,24 @@ grammatical structure
 
 # Technical Skills 🧠
 ## Programming
-- Python, SQL, NoSQL
+Python, SQL, NoSQL
 
 ## Machine Learning & Modeling
-- Supervised/Unsupervised Machine Learning, Regression, Classification, Functional
+Supervised/Unsupervised Machine Learning, Regression, Classification, Functional
 Modeling, XGBoost/LightGBM, Deep Learning/Transformers (CNN, Word2Vec, Seq2Seq, Attention), Bayesian Modeling,
 Random Forest, Drift Detection (KS, Chi-squared), End-to-end ETL data pipeline development, SentencePiece, PyTorch, NumPy, pandas, scikit-learn, SciPy, Selenium, BeautifulSoup, scikit-FDA, statsmodels
 
 ## Big Data & Cloud
-- PySpark, SparkSQL, MongoDB, PostgreSQL, Snowflake, Docker, Kubernetes, Terraform/GCP, Git
+PySpark, SparkSQL, MongoDB, PostgreSQL, Snowflake, Docker, Kubernetes, Terraform/GCP, Git
 
 ## Web Experimentaiton
-- Causal Inference, A/B Testing, Hypothesis Testing, Statistical Inference, Experimental Design
+Causal Inference, A/B Testing, Hypothesis Testing, Statistical Inference, Experimental Design
 
 ## Apps & Tooling
-- Streamlit, LangChain, Unix/Linux, Excel
+Streamlit, LangChain, Unix/Linux, Excel
   
 ## Visualization
-- Matplotlib, seaborn
+Matplotlib, seaborn
 
 # Professional Experience 💻
 ## Research Data Scientist / Machine Learning Engineer
