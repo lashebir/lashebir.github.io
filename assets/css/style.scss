@@ -6,7 +6,7 @@
 /* ========== Base Colors ========== */
 body {
   background-color: #e3e3e3;
-  color: #000000; /* Black base text */
+  color: #000000;
 }
 
 /* ========== Header (top banner) ========== */
@@ -14,62 +14,62 @@ body {
   background-image: linear-gradient(120deg, #000089, #1a1a1a);
 }
 
-/* Project/site name and tagline in header */
+/* Header title + tagline */
 .project-name,
 .project-tagline {
   color: #f0f0f0 !important;
   font-weight: 700;
 }
 
-/* ========== Global Headings ========== */
+/* ========== Headings ========== */
 h1, h2, h3 {
   font-weight: 700 !important;
   color: #000089 !important;
 }
 
-/* Section headers like "Projects 💡", "Education 🎓", "Skills 🧠" */
+/* Section headers: "Projects 💡", "Education 🎓", "Skills 🧠" */
 .main-content h2 {
   color: #450089 !important;
   font-weight: 700 !important;
 }
 
-/* Project titles (links inside h2) — slightly less bold */
+/* Project titles (h2 a) — purple and slightly less bold */
 .main-content h2 a {
   color: #450089 !important;
-  font-weight: 600;
+  font-weight: 600 !important;
   text-decoration: none;
 }
 
-/* ========== Paragraphs and List Items ========== */
+/* Body paragraphs */
 .main-content p {
-  font-weight: 400 !important;
-  font-size: 1rem;
   color: #000000 !important;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
-/* Subheaders like “Machine Learning” and “Master of Science…” */
-.main-content p strong {
-  font-weight: 500 !important;
+/* Subheaders like “Machine Learning” and degrees */
+.main-content p > strong:only-child {
+  font-weight: 600 !important;
   color: #450089 !important;
   display: block;
   margin: 1rem 0 0.5rem;
   font-size: 1.05rem;
 }
 
-/* Bulleted lists */
+/* List items */
 .main-content li {
   color: #000000 !important;
   font-weight: 400;
   font-size: 1rem;
 }
 
-/* ========== Links ========== */
+/* Links */
 a,
 a:visited {
   color: #6262ff;
 }
 
-/* ========== Buttons ========== */
+/* Button hover */
 .btn:hover {
   background-color: rgba(255, 106, 213, 0.15);
   border-color: #ff6ad5;
