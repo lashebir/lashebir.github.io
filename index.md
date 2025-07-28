@@ -2,9 +2,13 @@
 title: "Leah Ashebir"
 ---
 
-<div class="header-buttons">
-  <a href="mailto:ltashebir77@gmail.com" class="btn">Email</a>
+<div class="page-header">
+<!--   <h1 class="project-name">Your Site Title</h1>
+  <h2 class="project-tagline">Your tagline here</h2> -->
+  <div class="header-buttons">
+    <a href="mailto:ltashebir77@gmail.com" class="btn">Email</a>
   <a href="https://www.linkedin.com/in/leah-ashebir" class="btn">LinkedIn</a>
+  </div>
 </div>
 
 <link rel="stylesheet" href="/assets/css/style.scss">
