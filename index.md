@@ -2,6 +2,11 @@
 title: "Leah Ashebir"
 ---
 
+<div class="header-buttons">
+  <a href="mailto:ltashebir77@gmail.com" class="btn">Email</a>
+  <a href="https://www.linkedin.com/in/leah-ashebir" class="btn">LinkedIn</a>
+</div>
+
 <link rel="stylesheet" href="/assets/css/style.scss">
 
 # Hi there 👋
