@@ -6,7 +6,7 @@
 /* ========== Base Colors ========== */
 body {
   background-color: #e3e3e3;
-  color: #000000; /* Black body text */
+  color: #000000; /* Black base text */
 }
 
 /* ========== Header (top banner) ========== */
@@ -21,25 +21,26 @@ body {
   font-weight: 700;
 }
 
-/* ========== Headings ========== */
+/* ========== Global Headings ========== */
 h1, h2, h3 {
   font-weight: 700 !important;
-  color: #000089 !important;  /* default deep blue */
+  color: #000089 !important;
 }
 
-/* Purple section headers (like Education 🎓) */
+/* Purple section headers (like "Education 🎓", "Projects 💡") */
 .main-content h2 {
   color: #450089 !important;
+  font-weight: 700 !important;
 }
 
-/* Fixes project titles (they are links inside h2) */
+/* Project titles (links inside h2) — make these semi-bold */
 .main-content h2 a {
   color: #450089 !important;
-  font-weight: 700;
+  font-weight: 600;  /* slightly less bold than section headers */
   text-decoration: none;
 }
 
-/* ========== Main Content Text ========== */
+/* ========== Paragraphs and List Items ========== */
 .main-content p,
 .main-content li {
   color: #000000 !important;
