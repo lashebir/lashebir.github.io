@@ -6,7 +6,7 @@
 /* ========== Base Colors ========== */
 body {
   background-color: #e3e3e3;
-  color: #fdfdfd;
+  color: #000000; /* Black body text */
 }
 
 /* ========== Header (top banner) ========== */
@@ -22,13 +22,14 @@ body {
 }
 
 /* ========== Headings ========== */
-h1 {
-  // font-weight: 700;
-  color: #000089 !important;
+h1, h2, h3 {
+  font-weight: 700 !important;
+  color: #000089 !important;  /* default deep blue */
 }
 
-h2 {
-  color: #1a1a1a !important;
+/* Purple section headers (like Education 🎓) */
+.main-content h2 {
+  color: #450089 !important;
 }
 
 /* Fixes project titles (they are links inside h2) */
@@ -41,8 +42,9 @@ h2 {
 /* ========== Main Content Text ========== */
 .main-content p,
 .main-content li {
-  color: #450089 !important;
-  font-weight: 500;
+  color: #000000 !important;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 /* ========== Links ========== */
