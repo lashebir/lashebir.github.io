@@ -81,7 +81,7 @@
 /* ========== Base Colors ========== */
 body {
   background-color: #e3e3e3;
-  color: #000000;
+  color: #000000; /* Black base text */
 }
 
 /* ========== Header (top banner) ========== */
@@ -99,15 +99,16 @@ body {
 /* ========== Headings ========== */
 h1, h2, h3 {
   font-weight: 600 !important;
-  color: #000089 !important;
+  color: #000089 !important; /* default blue for non-section headings */
 }
 
-/* Section headers like "Projects 💡", "Skills 🧠", etc */
+/* Section headers like "Education 🎓", "Skills 🧠" */
 .main-content h2 {
-  color: #450089 !important;
+  color: #450089 !important; /* purple */
+  font-weight: 600 !important;
 }
 
-/* Project titles (h2 a) — now same weight */
+/* Project titles (h2 a) */
 .main-content h2 a {
   color: #450089 !important;
   font-weight: 600 !important;
@@ -126,7 +127,7 @@ h1, h2, h3 {
   font-weight: 400;
 }
 
-/* Bold subheaders (like "Machine Learning") */
+/* Bold lines like "Machine Learning" / degrees */
 strong {
   font-weight: 600 !important;
   color: #450089 !important;
