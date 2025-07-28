@@ -78,10 +78,10 @@
 
 @import "jekyll-theme-cayman";
 
-/* ========== Base Colors ========== */
+/* ========== Background & Base Text ========== */
 body {
   background-color: #e3e3e3;
-  color: #000000; /* Black base text */
+  color: #000000 !important;
 }
 
 /* ========== Header (top banner) ========== */
@@ -93,42 +93,32 @@ body {
 .project-name,
 .project-tagline {
   color: #f0f0f0 !important;
-  font-weight: 600;
+  font-weight: 600 !important;
 }
 
 /* ========== Headings ========== */
-h1, h2, h3 {
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4 {
   font-weight: 600 !important;
-  color: #000089 !important; /* default blue for non-section headings */
+  color: #000089 !important;
 }
 
-/* Section headers like "Education 🎓", "Skills 🧠" */
-.main-content h2 {
-  color: #450089 !important; /* purple */
-  font-weight: 600 !important;
+/* Section titles like "Education 🎓", "Skills 🧠", etc */
+.main-content h2.section-title {
+  color: #450089 !important;
 }
 
-/* Project titles (h2 a) */
+/* Project titles (h2 with links) */
 .main-content h2 a {
   color: #450089 !important;
   font-weight: 600 !important;
   text-decoration: none;
 }
 
-/* Paragraphs */
-.main-content p {
-  color: #000000 !important;
-  font-weight: 400;
-}
-
-/* List items */
-.main-content li {
-  color: #000000 !important;
-  font-weight: 400;
-}
-
-/* Bold lines like "Machine Learning" / degrees */
-strong {
+/* Subheaders like "Machine Learning" */
+.main-content p strong {
   font-weight: 600 !important;
   color: #450089 !important;
   display: block;
@@ -136,10 +126,22 @@ strong {
   font-size: 1.05rem;
 }
 
+/* Paragraphs */
+.main-content p {
+  color: #000000 !important;
+  font-weight: 400 !important;
+}
+
+/* Lists */
+.main-content li {
+  color: #000000 !important;
+  font-weight: 400 !important;
+}
+
 /* Links */
-a,
-a:visited {
-  color: #6262ff;
+.main-content a,
+.main-content a:visited {
+  color: #6262ff !important;
 }
 
 /* Buttons */
