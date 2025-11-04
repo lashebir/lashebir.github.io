@@ -26,6 +26,11 @@ My name is Leah. I am a statistician and data scientist passionate about using m
 Please reach out to me directly to see my latest resume. I look forward to getting to know you!
 
 # Projects 💡
+## [Retrieval-Augmented Generation (RAG) System for Scientific Literature ](https://github.com/lashebir/medrag)
+  - Developed a modular **RAG pipeline** integrating FastAPI, **PostgreSQL + pgvector**, and transformer-based encoders for semantic retrieval and summarization of scientific papers
+  - Engineered \textbf{custom ETL workflows} to clean, chunk, and embed **10k+** research papers across into vector representations, enabling efficient document search and downstream model analysis
+  - Served generation through **Ollama**-hosted LLMs via HTTP; planned orchestration upgrades (e.g., **LangChain**) for multi-step routing and tool use
+
 ## [Greco-Roman CNN Image Classification](https://github.com/lashebir/grecoroman-imageclassification)
   - Deployed an image classification model in **TensorFlow/Keras** to categorize classical art by depicted deity across artistic mediums
   - Designed a **custom data pipeline** to label, resize, and augment model training image data
