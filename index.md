@@ -28,8 +28,8 @@ Please reach out to me directly to see my latest resume. I look forward to getti
 # Projects 💡
 ## [Retrieval-Augmented Generation (RAG) System for Scientific Literature ](https://github.com/lashebir/medrag)
   - Developed a modular **RAG pipeline** integrating FastAPI, **PostgreSQL + pgvector**, and transformer-based encoders for semantic retrieval and summarization of scientific papers
-  - Engineered \textbf{custom ETL workflows} to clean, chunk, and embed **10k+** research papers across into vector representations, enabling efficient document search and downstream model analysis
-  - Served generation through **Ollama**-hosted LLMs via HTTP; planned orchestration upgrades (e.g., **LangChain**) for multi-step routing and tool use
+  - Engineered **custom ETL workflows** to clean, chunk, and embed **10k+** research papers across into vector representations via **IVFFlat**, enabling efficient document search via cluster analysis
+  - Served generation through **Ollama**-hosted LLMs via HTTP; planned orchestration upgrades (e.g., **LangChain**) for multi-step routing and tool use (in-progress)
 
 ## [Greco-Roman CNN Image Classification](https://github.com/lashebir/grecoroman-imageclassification)
   - Deployed an image classification model in **TensorFlow/Keras** to categorize classical art by depicted deity across artistic mediums
