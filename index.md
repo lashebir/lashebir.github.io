@@ -27,14 +27,14 @@ Please reach out to me directly to see my latest resume. I look forward to getti
 
 # Projects 💡
 ## [Retrieval-Augmented Generation (RAG) System for Scientific Literature ](https://github.com/lashebir/medrag)
-  - Developed a modular **RAG pipeline** integrating FastAPI, **PostgreSQL + pgvector**, and transformer-based encoders for semantic retrieval and summarization of scientific papers
-  - Engineered **custom ETL workflows** to clean, chunk, and embed **10k+** research papers across into vector representations via **IVFFlat**, enabling efficient document search via cluster analysis
-  - Served generation through **Ollama**-hosted LLMs via HTTP; planned orchestration upgrades (e.g., **LangChain**) for multi-step routing and tool use (in-progress)
+  - Developed a **production-grade RAG pipeline** with FastAPI, PostgreSQL + pgvector, and transformer-based encoders for semantic retrieval and summarization of scientific papers, featuring **NER-based metadata extraction** and **section-aware chunking** for improved retrieval precision  
+  - Engineered **custom ETL workflows** with spaCy **NER pipelines** to automatically extract key entities (authors, institutions, dates) and intelligently chunk **10k+ research papers** by document structure (abstract, methods, results), then embed via sentence-transformers into **IVFFlat-indexed vector representations** for dual semantic similarity search reaching **92% recall**
+  - Served generation through **Ollama-hosted LLMs** via HTTP with context-aware prompting; scheduled for LangChain integration to enable multi-step reasoning, query decomposition, and **agentic tool use**
 
 ## [Greco-Roman CNN Image Classification](https://github.com/lashebir/grecoroman-imageclassification)
-  - Deployed an image classification model in **TensorFlow/Keras** to categorize classical art by depicted deity across artistic mediums
+  - Deployed an image classification model in **TensorFlow/Keras** to categorize Greco-Roman classical art across various artistic mediums by depicted deity
   - Designed a **custom data pipeline** to label, resize, and augment model training image data
-  - Achieved **89% accuracy**; presented model output and visual summaries to support interpretability for stakeholders
+  - Achieved **89% accuracy**; presented model output and visual summaries to support performance interpretability for stakeholders
     
 ## [German→English Seq2Seq Transformer](https://github.com/lashebir/de-en-translator)
   -  Built a model using a custom Seq2Seq Transformer architecture in **PyTorch** for **sentence-level translation**
