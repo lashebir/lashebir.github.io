@@ -21,12 +21,12 @@ title: "Leah Ashebir"
 <link rel="stylesheet" href="/assets/css/style.scss">
 
 # Hi there 👋
-My name is Leah. I am a statistician and data scientist passionate about using machine learning to unlock hidden potential in data. My approach is deeply rooted in leveraging the theoretical underpinnings of machine learning technique to customize the solution to the data, not the other way around. I’m eager to continue expanding my data science and machine learning expertise while building solutions that drive real-world impact. When I am not working on my projects, you can find me line dancing, reading about ancient cultures, or practicing my German!
+My name is Leah. I am a data scientist passionate about using machine learning to unlock hidden potential in data. My approach is deeply rooted in leveraging the theoretical underpinnings of machine learning technique to customize the solution to the data, not the other way around. I’m eager to continue expanding my data science and machine learning expertise while building solutions that drive real-world impact. When I am not working on my projects, you can find me line dancing, reading about ancient cultures, or practicing my German!
 
 Please reach out to me directly to see my latest resume. I look forward to getting to know you!
 
 # Projects 💡
-## [Retrieval-Augmented Generation (RAG) System for Scientific Literature ](https://github.com/lashebir/medrag)
+## [Retrieval-Augmented Generation (RAG) System for Scientific Literature ](https://github.com/lashebir/neuro-rag)
   - Developed a **production-grade RAG pipeline** with FastAPI, PostgreSQL + pgvector, and transformer-based encoders for semantic retrieval and summarization of scientific papers, featuring **NER-based metadata extraction** and **section-aware chunking** for improved retrieval precision  
   - Engineered **custom ETL workflows** with spaCy **NER pipelines** to automatically extract key entities (authors, institutions, dates) and intelligently chunk **10k+ research papers** by document structure (abstract, methods, results), then embed via sentence-transformers into **IVFFlat-indexed vector representations** for dual semantic similarity search reaching **92% recall**
   - Served generation through **Ollama-hosted LLMs** via HTTP with context-aware prompting; scheduled for LangChain integration to enable multi-step reasoning, query decomposition, and **agentic tool use**
