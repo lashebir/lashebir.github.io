@@ -20,27 +20,33 @@ title: "Leah Ashebir"
 
 <link rel="stylesheet" href="/assets/css/style.scss">
 
-# Hi there 👋
-My name is Leah. I am a data scientist passionate about using machine learning to unlock hidden potential in data. My approach is deeply rooted in leveraging the theoretical underpinnings of machine learning technique to customize the solution to the data, not the other way around. I’m eager to continue expanding my data science and machine learning expertise while building solutions that drive real-world impact. When I am not working on my projects, you can find me line dancing, reading about ancient cultures, or practicing my German!
+# Introduction
+Hi, I'm Leah, a data scientist passionate about using statistics and machine learning to explore interesting questions! My approach is deeply rooted in leveraging the theoretical underpinnings of machine learning technique to customize the solution to the data, not the other way around. I’m eager to continue expanding my data science and machine learning expertise while building solutions that drive real-world impact. When I am not working on my projects, you can find me line dancing, reading poetry, or practicing my German!
 
-Please reach out to me directly to see my latest resume. I look forward to getting to know you!
+Please reach out to me directly to see my latest resume.
 
-# Projects 💡
+# Projects
+## [Live Phishing Detection with Domain Monitor Dashboard](https://github.com/lashebir/phishing_detection_ssl_domain)
+  - Engineered end-to-end phishing detection pipeline ingesting live SSL certificate data via direct Google Certificate Transparency log polling (RFC 6962 API), with ground truth labeling from PhishTank and Tranco maintained as separate artifacts for training set integrity
+  - Identified and eliminated data leakage across 5 of 8 engineered features through KS-test cross-source distributional analysis; XGBoost classifier trained on surviving features (domain entropy, TLD risk) achieves 93.5% recall and 0.48 AP on a held-out validation set with decision threshold selected empirically from the precision-recall curve
+  - Applied Facebook's Prophet to decompose daily and weekly seasonality from 30 days of CT log cert issuance history, using Isolation Forest on multi-feature Prophet residuals to surface anomalous windows indicative of coordinated phishing campaign activity
+  - Deployed Streamlit monitoring dashboard with live cert scoring, PR curve threshold optimization, KS-test drift detection, and raw data export for model & data auditability
+    
 ## [Retrieval-Augmented Generation (RAG) System for Scientific Literature ](https://github.com/lashebir/neuro-rag)
   - Developed a **production-grade RAG pipeline** with FastAPI, PostgreSQL + pgvector, and transformer-based encoders for semantic retrieval and summarization of scientific papers, featuring **NER-based metadata extraction** and **section-aware chunking** for improved retrieval precision  
   - Engineered **custom ETL workflows** with spaCy **NER pipelines** to automatically extract key entities (authors, institutions, dates) and intelligently chunk **10k+ research papers** by document structure (abstract, methods, results), then embed via sentence-transformers into **IVFFlat-indexed vector representations** for dual semantic similarity search reaching **92% recall**
   - Served generation through **Ollama-hosted LLMs** via HTTP with context-aware prompting; scheduled for LangChain integration to enable multi-step reasoning, query decomposition, and **agentic tool use**
 
-## [Greco-Roman CNN Image Classification](https://github.com/lashebir/grecoroman-imageclassification)
-  - Deployed an image classification model in **TensorFlow/Keras** to categorize Greco-Roman classical art across various artistic mediums by depicted deity
-  - Designed a **custom data pipeline** to label, resize, and augment model training image data
-  - Achieved **89% accuracy**; presented model output and visual summaries to support performance interpretability for stakeholders
-    
 ## [German→English Seq2Seq Transformer](https://github.com/lashebir/de-en-translator)
   -  Built a model using a custom Seq2Seq Transformer architecture in **PyTorch** for **sentence-level translation**
   - Implemented subword tokenization **(SentencePiece)** to improve semantic consistency and recognize rare/compound words
   - Evaluated using **BLEU and token-level F1**; delivered annotated examples to illustrate how model decisions aligned with
 grammatical structure
+
+## [Greco-Roman CNN Image Classification](https://github.com/lashebir/grecoroman-imageclassification)
+  - Deployed an image classification model in **TensorFlow/Keras** to categorize Greco-Roman classical art across various artistic mediums by depicted deity
+  - Designed a **custom data pipeline** to label, resize, and augment model training image data
+  - Achieved **89% accuracy**; presented model output and visual summaries to support performance interpretability for stakeholders
 
 # Education 🎓
 ## University of San Francisco
